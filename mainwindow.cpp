@@ -23,7 +23,6 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->comboBox_3->addItem("Fmin/Fmax", QString::number(0));
     ui->comboBox_3->addItem("Fc/BW", QString::number(1));
 
-    //test git
     //Finde available system serial ports
     Q_FOREACH (const QSerialPortInfo &serialPortInfo, QSerialPortInfo::availablePorts())
         {
